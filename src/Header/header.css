@@ -1,0 +1,40 @@
+.header_style {
+  border-bottom: 2px solid white;
+  width: 100%;
+  background-size: cover;
+  background-image: linear-gradient(to right, rgb(85, 152, 164), rgb(75, 112, 119), rgb(85, 152, 164));
+  display: flex;
+ 
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+h1 {
+  color: yellow;
+  text-shadow: 2px 2px black;
+  font-size: 52px;
+  letter-spacing: 8px;
+  text-align: center;
+}
+.comicon {
+  color: yellow;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    color: yellow;
+    text-shadow: 2px 2px black;
+    font-size: 42px;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 345px) {
+  h1 {
+    color: yellow;
+    text-shadow: 2px 2px black;
+    font-size: 32px;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+}

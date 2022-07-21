@@ -1,0 +1,12 @@
+.nav_bar {
+  background-image: linear-gradient(to right, rgb(85, 152, 164), rgb(75, 112, 119), rgb(85, 152, 164));
+}
+.nav_style {
+  display: flex;
+  justify-content: center;
+}
+.navbar,
+h3 {
+  color: white;
+  font-weight: lighter;
+}

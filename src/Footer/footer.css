@@ -1,0 +1,26 @@
+.facebook {
+  padding-right: 8px;
+  color: white;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 415px) {
+  .facebook,
+  .nav_content {
+    /* padding-right: 0px; */
+    display: none;
+    justify-items: center;
+  }
+}
+@media screen and (max-width: 415px) {
+  .facebook,
+  .nav_content {
+    /* padding-right: 0px; */
+    display: none;
+    justify-items: center;
+  }
+}
+.footer_email,
+a:visited {
+  color: white;
+}
