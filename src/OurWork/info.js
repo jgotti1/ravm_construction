@@ -1,14 +1,14 @@
 import React from "react";
-import "./home.css";
+import "./info.css";
 
-function Home() {
+function Info() {
   return (
-    <div className="home_style">
-      <div className="section_style">
-        <h1 className="estimates">Free Estimates</h1>
-        <h4> All remodeling and construction services inside and out of your home.</h4>
-        <div className="services">
-          <ul>
+    <div className="container_info">
+      <div className="info_style">
+        <h1 className="info_estimates">Free Estimates</h1>
+        <p className="info_text"> All remodeling and construction services inside and out of your home.</p>
+        <div>
+          <ul className="info_services">
             <li>Kitchens</li>
             <li>Bathrooms</li>
             <li>Basements</li>
@@ -23,18 +23,19 @@ function Home() {
             <li>Much More</li>
           </ul>
         </div>
-        <div className="contact_home">
+        <div className="info_contact_home">
           <h4>Call or text for more details </h4>
           <p>Alberto Viquez</p>
-          <p className="phone">(732) 864-6543</p>
-          <a className="home_email " href="mailto:RAVMcontruction@gmail.com">
+          <p className="info_phone">(732) 864-6543</p>
+          <a className="info_home_email " href="mailto:RAVMcontruction@gmail.com">
             RAVMcontruction@gmail.com
           </a>
-          <p className="referal_home">Referals Availible By Request</p>
+
+          <p className="referal">Referals Availible By Request</p>
         </div>
       </div>
     </div>
   );
 }
 
-export default Home;
+export default Info;

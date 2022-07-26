@@ -29,7 +29,7 @@
 }
 .contact_box {
   height: 80%;
-  width: 80%;
+  width: 70%;
   background-image: linear-gradient(to right, rgb(216, 225, 227), rgb(149, 177, 184), rgb(216, 225, 227));
   border-radius: 20px;
   display: flex;
