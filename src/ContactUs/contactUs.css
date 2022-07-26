@@ -71,7 +71,7 @@ input[type="submit"] {
   text-align: center;
 }
 .message {
-  width: 10r  0%;
+  width: 100%;
 }
 #form {
   min-width: 40%;
