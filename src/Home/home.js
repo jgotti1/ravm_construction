@@ -4,7 +4,7 @@ import "./home.css";
 function Home() {
   return (
     <div className="home_style">
-      <section className="section_style">
+      <div className="section_style">
         <h1 className="estimates">Free Estimates</h1>
         <h4> All remodeling and construction services inside and out of your home.</h4>
         <div className="services">
@@ -31,7 +31,7 @@ function Home() {
             RAVMcontruction@gmail.com
           </a>
         </div>
-      </section>
+      </div>
     </div>
   );
 }

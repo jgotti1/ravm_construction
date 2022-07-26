@@ -12,8 +12,8 @@ const Footer = () => {
           </Typography>
           <Typography className="contact" variant="caption" sx={{ flexGrow: 1, color: "white", marginLeft: "15px", fontSize: ".9rem", fontStyle: "bold" }}>
             Alberto Viquez: (732)-864-6543 |{" "}
-            <a className="footer_email" href="mailto:RAVMcontruction@gmail.com">
-              RAVMcontruction@gmail.com
+            <a className="footer_email" href="mailto:RAVMconstruction@gmail.com">
+              RAVMconstruction@gmail.com
             </a>
           </Typography>
 

@@ -1,4 +1,5 @@
 .ourwork {
-  background: red;
-  height: 500px;
+  background-image: url("../../public/images/checkbacksoon.jpg");
+  height: 100vh;
+  background-size: contain;
 }

@@ -1,0 +1,78 @@
+.contact_us {
+  background-image: linear-gradient(to right, rgb(85, 152, 164), rgb(75, 112, 119), rgb(85, 152, 164));
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  justify-content: center;
+}
+.contact_us h5 {
+  text-align: center;
+  padding: 5px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+.contact_head {
+  padding-top: 40px;
+  border-bottom: none;
+  letter-spacing: 5px;
+  font-size: 32px;
+}
+.contact_container {
+  display: grid;
+  justify-items: center;
+  height: 650px;
+  width: 100%;
+}
+.contact_box {
+  height: 80%;
+  width: 80%;
+  background-image: linear-gradient(to right, rgb(216, 225, 227), rgb(149, 177, 184), rgb(216, 225, 227));
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.field {
+  margin-bottom: 10px;
+}
+
+.field label {
+  display: block;
+  font-size: 12px;
+  color: #777;
+}
+
+.field input {
+  display: block;
+  min-width: 10%;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  display: block;
+  padding: 6px;
+  font-size: 14px;
+  background-color: #4460aa;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+}
+.errorMessage {
+  color: red;
+}
+.required {
+  font-size: 12px;
+  color: red;
+  text-align: center;
+}
+.message {
+  width: 10r  0%;
+}
+#form {
+  min-width: 40%;
+}

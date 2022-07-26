@@ -16,7 +16,7 @@ function TabPanel(props) {
     <div role="tabpanel" hidden={value !== index} id={`simple-tabpanel-${index}`} aria-labelledby={`simple-tab-${index}`} {...other}>
       {value === index && (
         <Box sx={{ p: 3 }}>
-          <Typography>{children}</Typography>
+          <Typography component={"span"}>{children}</Typography>
         </Box>
       )}
     </div>
@@ -47,10 +47,10 @@ export default function NavBar() {
     <Box sx={{ width: "100%" }}>
       <Box className="nav_bar nav_style" sx={{ borderBottom: 3, borderColor: "divider" }}>
         <Tabs indicatorColor="primary" textColor="primary" value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab sx={{ fontSize: ".89rem", color: "yellow", textShadow: "2px 2px black" }} className="nav_text" label="Our Company" />
-          <h3>|</h3>
+          <Tab sx={{ fontSize: ".89rem", color: "yellow", textShadow: "2px 2px black" }} className="nav_text" label="Our Company" {...a11yProps(0)} />
+
           <Tab sx={{ fontSize: ".89rem", color: "yellow", textShadow: "2px 2px black" }} className="nav_text" label="Our Work" {...a11yProps(1)} />
-          <h3>|</h3>
+
           <Tab sx={{ fontSize: ".89rem", color: "yellow", textShadow: "2px 2px black" }} className="nav_text" label="Contact Us" {...a11yProps(2)} />
         </Tabs>
       </Box>
