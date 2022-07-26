@@ -31,7 +31,7 @@ function Info() {
             RAVMcontruction@gmail.com
           </a>
 
-          <p className="referal">Referals Availible By Request</p>
+          <p className="referal">Referals Available By Request</p>
         </div>
       </div>
     </div>

@@ -30,7 +30,7 @@ function Home() {
           <a className="home_email " href="mailto:RAVMcontruction@gmail.com">
             RAVMcontruction@gmail.com
           </a>
-          <p className="referal_home">Referals Availible By Request</p>
+          <p className="referal_home">Referals Available By Request</p>
         </div>
       </div>
     </div>
