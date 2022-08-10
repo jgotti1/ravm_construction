@@ -50,13 +50,13 @@
 }
 .bottom_space {
   height: 85px;
-  min-width: 100vh;
+  /* min-width: 100vh; */
   background-image: linear-gradient(to right, rgb(85, 152, 164), rgb(75, 112, 119), rgb(85, 152, 164));
   background-size: cover;
 }
 .top_space {
   height: 20px;
-  min-width: 100vh;
+  /* min-width: 100vh; */
   background-image: linear-gradient(to right, rgb(85, 152, 164), rgb(75, 112, 119), rgb(85, 152, 164));
   background-size: cover;
 }

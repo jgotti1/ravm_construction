@@ -27,11 +27,11 @@ function Info() {
           <h4>Call or text for more details </h4>
           <p>Alberto Viquez</p>
           <p className="info_phone">(732) 864-6543</p>
-          <a className="info_home_email " href="mailto:RAVMcontruction@gmail.com">
-            RAVMcontruction@gmail.com
+          <a className="info_home_email " href="mailto:RAVMconstruction@gmail.com">
+            RAVMconstruction@gmail.com
           </a>
 
-          <p className="referal">Referals Available By Request</p>
+          <p className="referal">Referals Available Upon Request</p>
         </div>
       </div>
     </div>

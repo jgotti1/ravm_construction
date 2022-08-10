@@ -27,10 +27,10 @@ function Home() {
           <h4>Call or text for more details </h4>
           <p>Alberto Viquez</p>
           <p className="phone">(732) 864-6543</p>
-          <a className="home_email " href="mailto:RAVMcontruction@gmail.com">
-            RAVMcontruction@gmail.com
+          <a className="home_email " href="mailto:RAVMconstruction@gmail.com">
+            RAVMconstruction@gmail.com
           </a>
-          <p className="referal_home">Referals Available By Request</p>
+          <p className="referal_home">Referals Available Upon Request</p>
         </div>
       </div>
     </div>
